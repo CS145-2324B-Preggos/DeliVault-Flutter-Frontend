@@ -1,0 +1,14 @@
+bindings
+
+common
+- styles
+- widgeys
+
+data
+- repositories: firebase stuff
+- services: APIs
+
+application
+- for features
+
+utils
