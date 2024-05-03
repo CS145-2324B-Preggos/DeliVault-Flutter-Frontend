@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:delivault/utils/theme/theme.dart';
+import 'package:delivault/navigation_menu.dart';
 
 void main() {
   runApp(const MainApp());
@@ -16,7 +17,7 @@ class MainApp extends StatelessWidget {
       darkTheme: DAppTheme.darkTheme,
       home: const Scaffold(
         body: Center(
-          child: Text('Hello World!'),
+          child: NavBar(),
         ),
       ),
     );

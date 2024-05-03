@@ -1,4 +1,6 @@
+//use import 'package:delivault/utils/theme/theme.dart';
 import 'package:flutter/material.dart';
+import 'package:delivault/utils/constants/colors.dart';
 
 class DAppTheme {
   DAppTheme._();
@@ -6,15 +8,15 @@ class DAppTheme {
   static ThemeData lightTheme = ThemeData(
     useMaterial3: true,
     brightness: Brightness.light,
-    primaryColor: const Color.fromRGBO(248, 108, 20, 1),
-    scaffoldBackgroundColor: Colors.white,
+    primaryColor: DColors.dOrange,
+    scaffoldBackgroundColor: DColors.dWhite,
   );
 
   static ThemeData darkTheme = ThemeData(
     useMaterial3: true,
     brightness: Brightness.dark,
-    primaryColor: const Color.fromRGBO(4, 44, 96, 1),
-    scaffoldBackgroundColor: const Color.fromRGBO(77, 75, 75, 1),
+    primaryColor: DColors.dBlue,
+    scaffoldBackgroundColor: DColors.dGray,
     //scaffoldBackgroundColor: Colors.orange,
   );
 }
