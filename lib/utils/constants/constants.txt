@@ -1,0 +1,6 @@
+colors: for frequently used colors
+image_strings: to reference images in the assets folder 
+api_constants: keeping API keys
+text_strings: keep the main programs clean (put title strings here)
+
+note: keep everything in classes
